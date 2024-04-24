@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<!--       cu regiuni North, South, East, West si Center-->
+<BorderPane fx:controller="org.example.demolab6.HelloController" xmlns:fx="http://javafx.com/fxml" prefHeight="600.0" prefWidth="800.0">
+    <center>
+        <Pane fx:id="rootPane" BorderPane.alignment="CENTER" />
+    </center>
+    <bottom>
+        <Button fx:id="restartButton" text="Restart" BorderPane.alignment="CENTER"/>
+    </bottom>
+</BorderPane>
